@@ -12,7 +12,7 @@
             if (document.location.pathname != "/cafe") {
                 alert("You must be in a cafe game!");
             } else {
-                reactHandler().stateNode.state.forEach(e => alert(e));
+                reactHandler().stateNode.state.foods.forEach(e => alert(e));
                 reactHandler().stateNode.forceUpdate();
 
             }
