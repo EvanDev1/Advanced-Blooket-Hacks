@@ -13,7 +13,7 @@
                 alert("You must be in a cafe game!");
             } else {
                 reactHandler().stateNode.state.forEach(e => alert(e));
-                //reactHandler().stateNode.forceUpdate();
+                reactHandler().stateNode.forceUpdate();
 
             }
 })();
